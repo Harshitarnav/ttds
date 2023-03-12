@@ -1,0 +1,65 @@
+/* body {
+    background: linear-gradient(53deg, #106e56, #7350cc);
+    background-size: 400% 400%;
+
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+
+@-o-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+} */
+
+/* body {
+
+	background-size: 400% 400%;
+
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+body {
+    background-color: #bcc0c3;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__body {
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+}
+
+.home__body > img {
+    object-fit: contain;
+    size: 50vw;
+    height: 200px;
+}
+
+.home__inputContainer {
+    top: 18em;
+    border-color: #106e56;
+}

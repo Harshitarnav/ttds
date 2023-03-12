@@ -1,0 +1,65 @@
+.ResultBody {
+    margin-top: -3%;
+}
+
+.video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 6vw;
+    margin-left: 8%;
+    color: #1e1e1e;
+}
+
+.lyrics {
+    margin-top: -28vw;
+    margin-left: 60vw;
+    text-align:center;
+
+    padding: 5px 10px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px 1px 1px 1px;
+    /* background-color: #dcd2af; */
+    text-decoration-color: gray;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20.5px;
+
+    height: 650px;
+    width: 300px;
+    overflow: scroll;
+}
+
+/* .video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 6vw;
+    margin-left: 6vw;
+    color: #1e1e1e;
+}
+
+.lyrics {
+    margin-top: -24vw;
+    margin-left: 63vw;
+    text-align:center;
+    color: #0e021a;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20.5px;
+
+    height: 650px;
+    width: 300px;
+    overflow: scroll;
+} */
+
+.details {
+    font-size: 25px;
+    margin-top: 2vw;
+    margin-left: -40vw;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.title {
+    /* margin-left: 20vw; */
+    margin-top: 6%;
+    justify-content: center;
+}
